@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #1d1919;
+    color: white;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.setting{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 5px 5px 0px;
+    position: fixed;
+    left: 0;
+}
+.settings i{
+    width: 52%;
+    height: 9%;
+    /* background-color: white; */
+    font-size:29px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    /* margin-top:30px; */
+    color: black;
+    border-radius: 0px 5px 5px 0px;
+}
+.contact{
+    width: 80%;
+    height: 100%;
+    /* background-color: red; */
+}
+.content1{
+    width: 100%;
+    height: 30%;
+    /* background-color: tomato; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.resue{
+    width: 100%;
+    height: 100px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.content1 h1{
+    width: 80%;
+    height: 100%;
+    /* background-color:yellow; */
+    font-size: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgba(255, 255, 255, 0.164);
+}
+.content1 h2{
+    position: absolute;
+    top: 75px;
+    font-size: 70px;
+    color: white;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+.content1 h2 span{
+    color: #ffb400;
+}
+.content2{
+    width: 100%;
+    height: 70%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.details{
+    width: 34%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: start;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 10px;
+}
+.details h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.details p{
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.details .mail{
+    /* background-color: #ff9900; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 40px; */
+    margin-bottom: 25px;
+}
+.mail i{
+    font-size: 45px;
+    margin-right: 20px ;
+    color: #ff9900;
+}
+.mail1{
+    font-size: 20px;
+}
+.details .call{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 40px; */
+    margin-bottom: 25px;
+}
+.call i{
+    font-size: 25px;
+    margin-right: 20px ;
+    color: black;
+    background-color: #ff9900;
+    padding: 12px;
+    border-radius: 8px;
+}
+.call1{
+    font-size: 20px;
+}
+.listicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listicon i{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(63, 63, 63, 0.979);
+    border: none;
+    font-size: 25px;
+    padding: 24px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    margin: 10px;
+    transition: 0.5;
+}
+.listicon i:hover{
+    background-color: #ff9900;
+}
+.info{
+    width: 66%;
+    height: 100%;
+    background-color: pink;
+}
+.info .infotag{
+    width: 100%;
+    height: 20%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.infotag input{
+    width: 265px;
+    height: 65px;
+    background-color: rgba(77, 69, 69, 0.918);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+}
+.info textarea{
+    max-width: 100%;
+    height: 43%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-radius: 40px;
+    background-color: rgba(77, 69, 69, 0.918);;
+}
+.icons{
+    width: 8%;
+    height: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: green;  */
+    position: fixed;
+    right:0;   
+    /* margin-right: 40px; */
+}
+.i-holder{
+    width: auto;
+    height: 50px;
+    background-color: #ff9900;
+    margin: 10px;
+    padding-left: 0px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    border-radius: 40px;
+    /* padding: relative; */
+    /* scale: 0; */
+}
+.icons h4{
+    /* position: absolute; */
+    width: 0px;
+    overflow: hidden;
+    font-size: 16px;
+    transition:0.3s;
+    height: auto;
+    text-align: center;
+}
+.i-holder:hover{ 
+    width: 150px;
+    background-color: #ff9900;
+    /* background-color: aqua; */
+}
+.i-holder:hover h4{
+    width: 100px;
+
+}
+.icons i{
+    width: 50px;
+    height: 50px;
+    /* margin-bottom: 25px; */
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 50px;
+    /* background-color: rgba(43, 42, 42, 1); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cvbtn{
+    width: 45%;
+    height: 15%;
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 40px;
+    flex-direction: column;
+    color: white;
+    border: 2px solid #ffb400;
+    background-color: black;
+    border-radius: none;
+    position: relative;
+
+}
+.cvbtn h4{
+    position: absolute;
+    z-index: 5;
+}
+.cvIcon{
+    height: 70px;
+    width: 70px;
+    background-color: #ffb400;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-radius: 50px;
+    padding: 20px;
+    position:absolute;
+    right: 0;
+    transition: 0.4s; 
+    border:none;
+}
+
+.cvbtn:hover .cvIcon{
+    width: 100%;
